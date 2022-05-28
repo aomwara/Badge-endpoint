@@ -1,0 +1,14 @@
+[
+  {
+    "name": "truffle",
+    "logo": "truffle.svg",
+    "message": "Truffle",
+    "color": "green"
+  },
+  {
+    "name": "hardhat",
+    "logo": "hardhat.svg",
+    "message": "Hardhat",
+    "color": "brown"
+  }
+]
