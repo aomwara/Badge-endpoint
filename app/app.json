@@ -1,12 +1,10 @@
 [
   {
     "name": "truffle",
-    "logo": "truffle.svg",
     "color": "green"
   },
   {
     "name": "hardhat",
-    "logo": "hardhat.svg",
     "color": "brown"
   }
 ]
