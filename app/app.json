@@ -2,13 +2,13 @@
   {
     "name": "truffle",
     "logo": "truffle.svg",
-    "message": "Truffle",
+    "message": "",
     "color": "green"
   },
   {
     "name": "hardhat",
     "logo": "hardhat.svg",
-    "message": "Hardhat",
+    "message": "",
     "color": "brown"
   }
 ]
