@@ -6,5 +6,65 @@
   {
     "name": "hardhat",
     "color": "brown"
+  },
+  {
+    "name": "solidity",
+    "color": "brown"
+  },
+  {
+    "name": "web3.js",
+    "color": "brown"
+  },
+  {
+    "name": "ethers.js",
+    "color": "brown"
+  },
+  {
+    "name": "next.js",
+    "color": "brown"
+  },
+  {
+    "name": "chakra-ui",
+    "color": "brown"
+  },
+  {
+    "name": "chainlink",
+    "color": "brown"
+  },
+  {
+    "name": "uniswap",
+    "color": "brown"
+  },
+  {
+    "name": "openzeppelin",
+    "color": "brown"
+  },
+  {
+    "name": "infura",
+    "color": "brown"
+  },
+  {
+    "name": "alchemy",
+    "color": "brown"
+  },
+  {
+    "name": "chai",
+    "color": "brown"
+  },
+  {
+    "name": "redux",
+    "color": "brown"
+  },
+  {
+    "name": "next-ui",
+    "color": "brown"
+  },
+  {
+    "name": "react",
+    "color": "brown"
+  },
+  {
+    "name": "typescript",
+    "color": "brown"
   }
 ]
