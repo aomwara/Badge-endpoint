@@ -11,6 +11,6 @@ export default function handler(req, res) {
     label: _app.name,
     message: _app.message,
     color: _app.color,
-    logo: Endpoint.apiEndpoint + "/images/" + _app.logo,
+    logoSvg: Endpoint.apiEndpoint + "/images/" + _app.logo,
   });
 }
