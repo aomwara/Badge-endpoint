@@ -42,4 +42,4 @@ https://bagde-endpoint.vercel.app/api/custom?label=google&color=00bfff&logo=http
 
 ---
 ## Contributor
-@I3conn @aomwara
+@I3acon @aomwara
