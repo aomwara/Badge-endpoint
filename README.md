@@ -22,11 +22,11 @@ https://bagde-endpoint.vercel.app/api/solidity
 
 2. Custom APP ด้วย svg logo
 ```
-https://badge-endpoint.vercel.app/api/custom?label={APP_NAME}&color={COLOR_CODE}&logo={SVG_URL_ENDPOINT}
+https://badge-endpoint.vercel.app/api/custom?label={APP_NAME}&color={COLOR_CODE}&icon={SVG_URL_ENDPOINT}
 ```
 :: ตัวอย่าง ::
 ```
-https://bagde-endpoint.vercel.app/api/custom?label=google&color=00bfff&logo=https://url.com/logo-google.svg
+https://bagde-endpoint.vercel.app/api/custom?label=google&color=00bfff&icon=https://url.com/logo-google.svg
 ```
 
 ---
