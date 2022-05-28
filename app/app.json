@@ -1,19 +1,19 @@
 [
   {
     "name": "truffle",
-    "color": "green"
+    "color": "gray"
   },
   {
     "name": "hardhat",
-    "color": "brown"
+    "color": "gray"
   },
   {
     "name": "solidity",
-    "color": "brown"
+    "color": "#f5f5f5"
   },
   {
     "name": "web3.js",
-    "color": "brown"
+    "color": "#f5f5f5"
   },
   {
     "name": "ethers.js",
