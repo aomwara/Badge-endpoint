@@ -9,8 +9,8 @@ export default function handler(req, res) {
     r.text().then((d) => {
       res.status(200).json({
         schemaVersion: 1,
-        label: _app.name,
-        message: _app.message,
+        label: " ",
+        message: _app.name,
         color: _app.color,
         logoSvg: d,
       });
