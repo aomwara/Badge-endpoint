@@ -1,11 +1,11 @@
 [
   {
     "name": "truffle",
-    "color": "gray"
+    "color": "#bebebe"
   },
   {
     "name": "hardhat",
-    "color": "gray"
+    "color": "#d3d3d3"
   },
   {
     "name": "solidity",
@@ -13,11 +13,11 @@
   },
   {
     "name": "web3.js",
-    "color": "#f5f5f5"
+    "color": "#Ffcd91"
   },
   {
     "name": "ethers.js",
-    "color": "brown"
+    "color": "d0efff"
   },
   {
     "name": "next.js",
@@ -29,7 +29,7 @@
   },
   {
     "name": "chainlink",
-    "color": "brown"
+    "color": "#2a9df4"
   },
   {
     "name": "uniswap",
