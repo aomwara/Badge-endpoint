@@ -1,10 +1,10 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import { Text, Button, Spinner, Flex } from "@chakra-ui/react";
-import { FaGoogle, FaSignOutAlt, FaRocket } from "react-icons/fa";
-import { signIn, signOut, useSession } from "next-auth/client";
+import { Text, Spinner } from "@chakra-ui/react";
 
-export default function Home() {
+import { useSession } from "next-auth/client";
+
+const Home = () => {
   const [session, loading] = useSession();
   return (
     <div className={styles.container}>
@@ -24,51 +24,24 @@ export default function Home() {
 
         {loading && <Spinner mt={5} />}
 
-        {!session && !loading && (
-          <>
-            <Button
-              style={{
-                background:
-                  "linear-gradient(-120deg, #4285f4, #34a853, #fbbc05, #ea4335)",
-              }}
-              color="white"
-              size="sm"
-              mt={5}
-              onClick={() =>
-                signIn("google", { callbackUrl: process.env.NEXTAUTH_URL })
-              }
-            >
-              <FaGoogle />
-              <Text pl={2}>Sign in with Google</Text>
-            </Button>
-          </>
-        )}
         {session && (
           <>
             <Text pt={3} color="linkedin.100">
               <small> Signed in as {session.user.name}</small>
             </Text>
+          </>
+        )}
 
-            <Flex>
-              <Button colorScheme={"teal"} size="sm" mt={5}>
-                <FaRocket />
-                <Text ml={1}>Launch App!</Text>
-              </Button>
-              <Button
-                variant="outline"
-                ml={4}
-                onClick={() => signOut()}
-                color="white"
-                size="sm"
-                mt={5}
-              >
-                <FaSignOutAlt />
-                <Text ml={1}>Sign out</Text>
-              </Button>
-            </Flex>
+        {!session && (
+          <>
+            <Text pt={3} mb={5} color="linkedin.100">
+              <small>Please Sign in with Google Account</small>
+            </Text>
           </>
         )}
       </main>
     </div>
   );
-}
+};
+
+export default Home;
