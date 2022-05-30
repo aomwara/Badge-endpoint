@@ -32,7 +32,7 @@ const Home = () => {
           </>
         )}
 
-        {!session && (
+        {!session && !loading && (
           <>
             <Text pt={3} mb={5} color="linkedin.100">
               <small>Please Sign in with Google Account</small>
